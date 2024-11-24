@@ -26,7 +26,7 @@ const BarcodeScannerResult = ({ isOpen, setIsOpen, scanValue, setScanvalue }) =>
                         ) : (
                             <div className="text-center space-y-2 mb-16">
                                 <p className="font-medium">{scanValue}</p>
-                                <p className="capitalize font-medium text-xl">Product Not Found</p>
+                                <p className="capitalize font-medium text-xl">পণ্যটি খুঁজে পাওয়া যায় নি</p>
                             </div>
                         )}
 
