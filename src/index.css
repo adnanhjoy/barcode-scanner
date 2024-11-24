@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#reader {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#reader img{
+    display: none !important;
+}
+
+
+.html5-qrcode-element{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+#html5-qrcode-button-camera-start{
+    background-color: green;
+    color: white;
+    width: 100%;
+}
+
+#html5-qrcode-button-camera-stop{
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+#html5-qrcode-anchor-scan-type-change{
+    display: block;
+    background-color: blue;
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+}
+
+#html5-qrcode-button-camera-permission{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+#html5-qrcode-select-camera{
+    width: 100%;
+    outline: none;
+}
+
+
+#reader__scan_region{
+    min-height: fit-content !important;
+}
+
+#reader__dashboard_section{
+    padding: 10px !important;
+}
